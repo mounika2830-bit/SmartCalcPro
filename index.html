@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SmartCalc Pro</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main class="app">
+      <aside class="sidebar">
+        <h1>SmartCalc Pro</h1>
+        <nav id="calculatorTabs" class="tabs" aria-label="Calculators"></nav>
+      </aside>
+      <section class="workspace">
+        <div class="header">
+          <div>
+            <p class="eyebrow">Accuracy-first calculators</p>
+            <h2 id="calculatorTitle"></h2>
+          </div>
+          <p id="calculatorNote" class="note"></p>
+        </div>
+        <form id="calculatorForm" class="panel"></form>
+        <section id="resultPanel" class="results" aria-live="polite"></section>
+      </section>
+    </main>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

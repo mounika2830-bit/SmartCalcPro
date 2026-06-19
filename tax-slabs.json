@@ -1,0 +1,49 @@
+{
+  "India": {
+    "FY2024-25": {
+      "new": {
+        "standardDeduction": 75000,
+        "slabs": [
+          { "upTo": 300000, "rate": 0 },
+          { "upTo": 700000, "rate": 5 },
+          { "upTo": 1000000, "rate": 10 },
+          { "upTo": 1200000, "rate": 15 },
+          { "upTo": 1500000, "rate": 20 },
+          { "upTo": null, "rate": 30 }
+        ]
+      },
+      "old": {
+        "standardDeduction": 50000,
+        "slabs": [
+          { "upTo": 250000, "rate": 0 },
+          { "upTo": 500000, "rate": 5 },
+          { "upTo": 1000000, "rate": 20 },
+          { "upTo": null, "rate": 30 }
+        ]
+      }
+    },
+    "FY2025-26": {
+      "new": {
+        "standardDeduction": 75000,
+        "slabs": [
+          { "upTo": 400000, "rate": 0 },
+          { "upTo": 800000, "rate": 5 },
+          { "upTo": 1200000, "rate": 10 },
+          { "upTo": 1600000, "rate": 15 },
+          { "upTo": 2000000, "rate": 20 },
+          { "upTo": 2400000, "rate": 25 },
+          { "upTo": null, "rate": 30 }
+        ]
+      },
+      "old": {
+        "standardDeduction": 50000,
+        "slabs": [
+          { "upTo": 250000, "rate": 0 },
+          { "upTo": 500000, "rate": 5 },
+          { "upTo": 1000000, "rate": 20 },
+          { "upTo": null, "rate": 30 }
+        ]
+      }
+    }
+  }
+}
